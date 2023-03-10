@@ -20,7 +20,6 @@ app.listen(PORT, () => {
 })
 
 app.get('/events', eventsHandler);
-
 app.post('/fact', addFact);
 
 function eventsHandler(request, response, next) {
